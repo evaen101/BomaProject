@@ -1,0 +1,63 @@
+<PAMDataset>
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 36S",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",33],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32736"]]</SRS>
+  <GeoTransform>  7.3638600000000000e+05,  1.5000849617672047e+00,  0.0000000000000000e+00,  9.8698880000000000e+06,  0.0000000000000000e+00, -1.5000000000000000e+00</GeoTransform>
+  <Metadata>
+    <MDI key="COLORSPACE">RGB</MDI>
+    <MDI key="COMPRESSION_RATE_TARGET">7</MDI>
+  </Metadata>
+  <Metadata domain="JPEG2000">
+    <MDI key="CODE_BLOCK_SIZE_X">64</MDI>
+    <MDI key="CODE_BLOCK_SIZE_Y">64</MDI>
+    <MDI key="GML_JP2_DATA">FALSE</MDI>
+    <MDI key="PRECINCT_SIZE_X">128,256,512</MDI>
+    <MDI key="PRECINCT_SIZE_Y">512,512,512</MDI>
+    <MDI key="PRECISION">8,8,8</MDI>
+    <MDI key="PROFILE">1</MDI>
+    <MDI key="PROGRESSION_ORDER">LRCP</MDI>
+    <MDI key="QUALITY_LAYERS">1</MDI>
+    <MDI key="RESOLUTION_LEVELS">3</MDI>
+    <MDI key="TILES_X">12</MDI>
+    <MDI key="TILES_Y">12</MDI>
+    <MDI key="TILE_HEIGHT">1024</MDI>
+    <MDI key="TILE_WIDTH">1024</MDI>
+    <MDI key="TRANSFORMATION_TYPE">9x7</MDI>
+    <MDI key="USE_EPH">FALSE</MDI>
+    <MDI key="USE_SOP">FALSE</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG2000</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">80</MDI>
+      <MDI key="STATISTICS_MEAN">38.885067712046</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">13.550668284409</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG2000</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">79</MDI>
+      <MDI key="STATISTICS_MEAN">35.462075314802</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">11.42061962811</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG2000</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">53</MDI>
+      <MDI key="STATISTICS_MEAN">25.417498218104</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">7.9643994531676</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
